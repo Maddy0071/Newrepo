@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- task: AzureResourceManagerTemplateDeployment@3
+- task: storageaccountdeployment
   inputs:
     deploymentScope: 'Resource Group'
     azureResourceManagerConnection: 'Pay-As-You-Go(16627ae0-e54b-4371-a104-cde9c06d00f7)'
